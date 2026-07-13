@@ -129,10 +129,11 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.25fr 0.95fr;
+  grid-template-columns: 1.2fr 0.9fr;
   gap: 28px;
   padding: 56px;
   border-radius: 36px;
+  align-items: start;
 }
 
 .eyebrow {
@@ -207,18 +208,17 @@ h1 {
 }
 
 .hero-panel {
-  align-self: stretch;
+  align-self: start;
 }
 
 .panel-grid {
   display: grid;
   gap: 16px;
-  height: 100%;
 }
 
 .profile-card {
   margin: 0;
-  min-height: 320px;
+  min-height: 220px;
   overflow: hidden;
   border-radius: var(--radius-md);
   border: 1px solid var(--line);
@@ -226,13 +226,17 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.hero-media {
+  margin-top: 28px;
+}
+
 .profile-photo {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 320px;
+  min-height: 220px;
   object-fit: cover;
-  object-position: center 28%;
+  object-position: center 24%;
 }
 
 .metric-card,
