@@ -462,6 +462,10 @@ h2 {
   font-weight: 700;
 }
 
+.hero-contact-details a {
+  color: var(--text);
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
