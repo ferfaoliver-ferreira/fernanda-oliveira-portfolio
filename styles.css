@@ -375,13 +375,31 @@ h2 {
   color: var(--primary);
 }
 
+.badge-chip {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 14px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.badge-chip-accent {
+  background: rgba(15, 23, 32, 0.08);
+  color: var(--text);
+}
+
 .timeline {
   display: grid;
   gap: 16px;
 }
 
 .credentials-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .cta-section {
