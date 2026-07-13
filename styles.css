@@ -350,6 +350,31 @@ h2 {
   font-weight: 700;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.project-links a:hover,
+.project-links a:focus-visible {
+  border-color: rgba(15, 95, 115, 0.35);
+  color: var(--primary);
+}
+
 .timeline {
   display: grid;
   gap: 16px;
